@@ -22,7 +22,7 @@ O objetivo do jogador é explorar um labirinto, encontrar três chaves perdidas,
 
 ---
 
-## ⌨️ Controlos do Jogo
+## ⌨️ Controles do Jogo
 
 | Tecla / Ação | Função |
 | :--- | :--- |
@@ -35,19 +35,28 @@ O objetivo do jogador é explorar um labirinto, encontrar três chaves perdidas,
 
 ---
 
-## 🛠️ Requisitos e Pré-requisitos
+## 🚀 Como Jogar
 
+Escolha uma das opções abaixo para executar o jogo:
+
+### Opção 1: Descarregar a Versão Pronta (Sem precisar de Python)
+1. Aceda à secção de **[Releases](../../releases)** deste repositório na barra lateral direita.
+2. Transfira o ficheiro **`.zip`** da versão mais recente.
+3. Extraia o conteúdo do ficheiro `.zip` numa pasta à sua escolha.
+4. Abra a pasta e execute o ficheiro `.exe` do jogo.
+
+---
+
+### Opção 2: Executar via Código Fonte (Para Desenvolvedores)
+
+#### Requisitos:
 - **Python:** Versão 3.8 ou superior instalada.
 - **Biblioteca Ursina Engine:**
   ```bash
   pip install ursina
   ```
 
----
-
-## 📁 Estrutura de Pastas Esperada
-
-Para que os efeitos sonoros personalizados funcionem corretamente, garanta que a estrutura de pastas está organizada da seguinte forma:
+#### Estrutura de Pastas Esperada:
 
 ```text
 meu_jogo/
@@ -62,25 +71,19 @@ meu_jogo/
     └── passo.wav
 ```
 
-> Nota: Caso os ficheiros na pasta `sounds/` não existam, o jogo utilizará automaticamente os sons nativos de reserva da Ursina sem interromper a execução.
-> 
-> 
+> Nota: Caso os ficheiros na pasta `sounds/` não existam, o jogo utilizará automaticamente os sons nativos de reserva da Ursina.
 
----
-
-## 🚀 Como Executar o Jogo
+#### Passos para executar:
 
 1. Clone ou transfira este repositório.
-2. Certifique-se de que instalou a dependência `ursina`.
-3. Execute o ficheiro principal no seu terminal/prompt de comando:
-
+2. Execute o ficheiro principal no seu terminal/prompt de comando:
 ```bash
 python main.py
 ```
 
 ---
 
-## ⚙️ Personalização Rápidas
+## ⚙️ Personalização Rápida
 
 No início do código `main.py`, na secção **Configurações Gerais**, pode ajustar variáveis simples para alterar a dificuldade:
 
