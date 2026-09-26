@@ -1,6 +1,6 @@
 # 💎 O Resgate do Cristal 3D
 
-Um jogo de exploração em primeira pessoa (FPS) desenvolvido em Python utilizando a biblioteca **Ursina Engine**[cite: 1].
+Um jogo de exploração em primeira pessoa (FPS) desenvolvido em Python utilizando a biblioteca **Ursina Engine**.
 
 O objetivo do jogador é explorar um labirinto, encontrar três chaves perdidas, usar as chaves para abrir a jaula trancada e recuperar o cristal místico antes que o tempo se esgoste[cite: 1].
 
